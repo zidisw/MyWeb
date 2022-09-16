@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Personal Portofolio | Zid Irsyadin Sartono Wijaogy </title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <div class="toggle" onclick ="toggleMenu();"></div>
+
+    <section class="banner" id="home">
+
+        <div class="imgSidebar">
+            <img src="/images/IMG_8926.jpg">
+        </div>
+        <div class="contentBx">
+            <h5 class="logoText">My Portofolio</h5>
+            <div>
+                <h4><span>Hello</span>, I'm</h4>
+                <h2>Zid Irsyadin Sartono Wijaogy</h2>
+                <h4>I'm a AI Developer.</h4>
+                <p>Saya Zid Irsyadin Sartono Wijaogy. Biasa dipanggil Zid, meskipun nama panggilan sejak kecil itu Ichaz. Saya lahir di Wonomulyo, Sulawesi Barat, pada 7 Agustus 2001. Saat ini, saya sedang menempuh bangku kuliah Semester 5 di Universitas Hasanuddin, Program Studi S1 Teknik Informatika.</p>
+                <a href="#" class="btn">About Me</a>
+            </div>
+            <ul class = "sci">
+                <li><a href="#"><img src="/images/facebook.png"</a></li>
+                <li><a href="#"><img src="/images/twitter.png"</a></li>
+                <li><a href="#"><img src="/images/instagram.png"</a></li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <section class ="about" id="about">
+        <div class="title white">
+            <h2>About Us</h2>
+            <p>Saya adalah Mahasiswa dengan Kode Identitas Rahasia D121201016 / CNM06-123.</p>
+        </div>
+        <div class="content">
+            <div class="textBx">
+                <p>
+                    Dengan Integritas karakter yang saya miliki, saya berusaha menjadi versi terbaik dari diri saya. Disiplin waktu, Bertanggung jawab, dan berakhlak mulia merupakan karakter yang ditanamkan oleh orang tua saya sejak kecil. Selain itu, Saya suka mengikuti kegiatan dan organisasi atau komunitas ataupun wadah yang lain yang dapat membantu saya dalam mengembangkan minat dan bakat yang saya miliki. Meski begitu, saya adalah tipe orang yang tidak mudah percaya pada orang, karena trauma akan pengkhiantan. Selain itu saya tipe orang yang mudah mengalami Burn Out. <br></br>Namun, saya tetap berusaha untuk bisa menutupi kekurangan yang saya miliki, seperti tidak memendam masalah sendirian, dan berusaha untuk memikirkannya dengan kepala dingin dan perlahan. Dengan pengalaman organisasi, komunitas dan volunteer dan kemampuan lain yang saya miliki, saya yakin bahwa saya dapat berkontribusi bagi nusa dan bangsa serta negara. Selain itu, saya hanya takut kepada sesuatu dari luar yang bersifat toxin, seperti lingkungan yang negatif dan lain-lain.
+                </p>
+            </div>
+            <div class="imgBx">
+                <img src="/images/IMG_7597.jpg">
+            </div>
+        </div>
+    </section>
+    
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home"onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about"onclick="toggleMenu();">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+     function toggleMenu(){
+        const menuToggle = document.querySelector('.toggle');
+        const sidebar = document.querySelector('.sidebar');
+        menuToggle.classList.toggle('active')
+        sidebar.classList.toggle('active')
+     }   
+    </script>
+</body>
+</html>
