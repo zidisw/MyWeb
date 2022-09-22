@@ -15,7 +15,7 @@
     width: 50px;
     height: 50px;
     border-radius: 5px;
-    background: rgb(49, 131, 255) url(./menu.png);
+    background: rgb(49, 131, 255) url(/menu.png);
     background-size: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 }
 .toggle.active
 {
-    background: rgb(49, 131, 255) url(./close.png);
+    background: rgb(49, 131, 255) url(/close.png);
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,7 +169,7 @@ p
 
 .sidebar ul li a:hover
 {
-    color: #9a64ff;
+    color: #00e1ff;
 }
 
 .sci
@@ -276,6 +276,39 @@ p:hover, a:visited, a:link, a:active
 }
 
 .about .content .imgBx img
+{
+    max-width: 100%;
+}
+
+.service
+{
+    background: #9a64ff;
+}
+
+.service .content
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.service .content .textBx
+{
+    min-width: 49%;
+    width: 49%;
+}
+
+.service .content .textBx p
+{
+    color: white;
+}
+
+.service .content .imgBx
+{
+    margin-left: 40px;
+}
+
+.service .content .imgBx img
 {
     max-width: 100%;
 }
